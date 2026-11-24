@@ -1,0 +1,8 @@
+/* Show the short name; the real name stays in the DOM (and comes back while renaming). */
+.nav-file-title-content[data-short-name]:not([contenteditable="true"]) {
+  font-size: 0;
+}
+.nav-file-title-content[data-short-name]:not([contenteditable="true"])::before {
+  content: attr(data-short-name);
+  font-size: var(--nav-item-size);
+}
