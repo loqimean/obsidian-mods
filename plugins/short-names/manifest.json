@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "minAppVersion": "1.5.0",
   "description": "File explorer shows file names without the words that repeat their folder names. Display only: files are not renamed.",
-  "author": "Ivan Marynych",
+  "author": "loqimean",
   "isDesktopOnly": false
 }
